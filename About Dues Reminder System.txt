@@ -1,0 +1,10 @@
+I was creating an app for my client who sells his item on installments and keep track of his customers due dates and amounts.
+so this idea clicks me if i automate his reminders so he does not have to check his sheets for dues daily. 
+
+
+1. customer Name , email , due date , due amount , status  fields in google sheet
+2. n8n will check the sheet filters the rows where at least 2 days left in due date. if less then or equal to 2 days left for due date and due amount is    greater then 0 and status in not 'Paid' , it will send reminder email to customer. 
+3. if due date is passed n8n agent will generate and send email to manager telling customer's due amount, due date and status of payment.
+4. run the agent daily at 9am.
+
+video attached shows process of creation and testing  
